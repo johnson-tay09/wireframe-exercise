@@ -9,17 +9,28 @@
 header{
   background-color: rgb(59, 58, 56);
   text-align: center;
- 
+ position: relative;
+ height: 100px;
 }
 nav{
   color: grey;
   text-decoration: none;
   display: inline;
+  /* position: absolute; */
+}
+#nav-bar{
+  position: absolute;
+  bottom: 40px;
+  left:200px;
 }
 .nav-item{
   font-family: sans-serif;
-  padding-left: 80px;
+  padding-left: 75px;
   margin-bottom: 50px;
+}
+#logo{
+  position: absolute;
+  left:20px;
 }
 img{
   margin: 15px;
