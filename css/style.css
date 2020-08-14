@@ -2,13 +2,12 @@
   font-family: sans-serif;
 }
 #page{
-  max-width: 1000px;
-  min-width: 700px;
-  margin: 40px auto 50px auto;
+  width: 1000px;
+  margin: 0 auto;
 }
 header{
-  background-color: rgb(59, 58, 56);
-  text-align: center;
+background-color: rgb(59, 58, 56);
+text-align: center;
  position: relative;
  height: 100px;
 }
